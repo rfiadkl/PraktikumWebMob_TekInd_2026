@@ -82,8 +82,10 @@ console.log("---cek status maintenance---")
             break;
         case 2:
             console.log("Shift anda adalah : Siang")
+            break;
         case 3:
             console.log("Shift anda adalah : Malam")
+            break;
         default:
             console.log("Shift tidak valid")
     }

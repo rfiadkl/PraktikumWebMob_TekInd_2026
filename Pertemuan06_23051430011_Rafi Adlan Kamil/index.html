@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 6</title>
+</head>
+<body>
+    <!-- LANGKAH 1 -->
+    <div class="card mt-4">
+        <div class="card-header bg-dark text-white">Panel Kontrol Mesin-01</div>
+        <div class="card-body text-center">
+            <div id="statusIndicator" class="alert alert-secondary">
+                Status: <strong>UNKNOWN</strong>
+            </div>
+
+            <h2 id="suhuMesin">25 °C</h2>
+            <p>Suhu Operasional Saat Ini</p>
+
+            <button id="btnStart" class="btn btn-success">START</button>
+            <button id="btnStop" class="btn btn-danger">STOP</button>
+            <button id="btnReset" class="btn btn-warning">RESET</button>
+            <button id="btnMaintenance" class="btn btn-warning">MAINTENANCE</button>
+
+        </div>
+    </div>
+
+    <!-- LANGKAH 4 -->
+    <input type="number" id="inputRPM" placeholder="Max 2000 RPM">
+    <small id="pesanError" style="color:red; display:none;"> RPM melebihi batas! </small>
+
+    <script src="script.js"></script>
+</body>
+</html>

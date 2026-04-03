@@ -1,0 +1,38 @@
+<!-- PROYEK MINI -->
+ <!DOCTYPE html>
+ <html lang="id">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyek Mini Petemuan 7</title>
+ </head>
+ <body>
+    <h2>Audit Checklist 5S</h2>
+
+<input type="text" id="auditor" class="form-control mb-2" placeholder="Nama Auditor">
+<br>
+<label><input type="checkbox" id="seiri"> Seiri</label><br>
+<label><input type="checkbox" id="seiton"> Seiton</label><br>
+<label><input type="checkbox" id="seiso"> Seiso</label><br>
+<label><input type="checkbox" id="seiketsu"> Seiketsu</label><br>
+<label><input type="checkbox" id="shitsuke"> Shitsuke</label><br><br>
+
+<button onclick="simpanAudit()" class="btn btn-primary">Simpan</button>
+
+<h3 class="mt-4">Riwayat Audit</h3>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tanggal</th>
+            <th>Auditor</th>
+            <th>Skor</th>
+        </tr>
+    </thead>
+    <tbody id="tabelAudit"></tbody>
+</table>
+
+<script src="proyekmini.js"></script>
+    
+ </body>
+ </html>
